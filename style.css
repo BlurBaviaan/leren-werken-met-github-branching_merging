@@ -29,4 +29,31 @@ th, td {
     text-align: left;
 }
 
-/* Student B zal hier extra stijlen toevoegen voor de ongeordende lijst */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    padding: 8px;
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px, 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkblue;
+}
